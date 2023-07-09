@@ -4,13 +4,13 @@ Tech tuesday project integrating ChatGPT with a TicTacToe game.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- Download flutter 3.10 to run the project
+- Run `flutter doctor` to make sure your env is setup
+- Run `flutter pub get` to get all the dependencies
+- Create your own openAI account
+- Generate an API key
+- In the file `open_ai_service.dart` add your API key to connect to ChatGPT
+- run `flutter run` to start fighting a robot
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### PS:
+This model is not very good at tic tac toe
