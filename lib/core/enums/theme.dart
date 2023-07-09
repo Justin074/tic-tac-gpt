@@ -1,0 +1,4 @@
+enum CurrentTheme {
+  light,
+  dark;
+}
